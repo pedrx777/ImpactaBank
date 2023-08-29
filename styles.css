@@ -7,7 +7,6 @@ body {
 .menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    /* Adjust the number of columns based on your menu items */
     background-color: #A8BF8C;
     color: white;
 }
