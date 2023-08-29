@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFFCF8;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    /* Adjust the number of columns based on your menu items */
+    background-color: #A8BF8C;
+    color: white;
+}
+
+.menu a {
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    background-color: #83996f;
+    transition: 0.5s;
+}
+
+.titulo1{
+    color: #405230;
+    font-size: 80px;
+    text-align: center;
+}
+
+.inicial {
+    background-color: rgb(240, 237, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicial2{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.btn1{
+    padding: 7px ;
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    border-color: #405230;
+    color: rgb(255, 250, 250);
+    background-color: #A8BF8C;
+    font-style: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn1:hover{
+    background-color: #7da560;
+    transition-duration: 0.3s;  
+    
+}
+
+.btn2{
+    padding: 7px ;
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    border-color: #405230;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn2:hover {
+    background-color: rgb(228, 228, 228);
+    transition: 0.3s;
+}

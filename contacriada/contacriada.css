@@ -1,0 +1,50 @@
+body {
+    background-color: #FFFCF8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    /* Adjust the number of columns based on your menu items */
+    background-color: #A8BF8C;
+    color: white;
+}
+
+.menu a {
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    background-color: #83996f;
+    transition: 0.5s;
+}
+
+.main {
+    margin-top: 150px;
+}
+
+.confirmation {
+    margin-top: 1px;
+}
+
+div {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: #405230;
+}
+
+p {
+    color: #687a51;
+    font-size: 40px; 
+}
