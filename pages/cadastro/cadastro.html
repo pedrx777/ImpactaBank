@@ -8,6 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
     <link rel="stylesheet" href="cadastro.css" />
+    <script src="cadastro.js"></script>
     <title>Cadastre-se</title>
   </head>
   <body>
@@ -23,15 +24,15 @@
       </div>
       <div class="label">
         <i class="material-symbols-outlined">mail</i>
-        <input class="inputum" type="text" placeholder="Seu E-mail" />
+        <input class="inputum" type="text" placeholder="Seu E-mail" onclick="clearPlaceholder(this)" onblur="restorePlaceholderEmail(this)"/>
       </div>
       <div class="label">
         <i class="material-symbols-outlined">person</i>
-        <input class="inputum" type="text" placeholder="Seu nome" />
+        <input class="inputum" type="text" placeholder="Seu nome" onclick="clearPlaceholder(this)" onblur="restorePlaceholderName(this)"/>
       </div>
       <div class="label_dois">
         <i class="material-symbols-outlined">lock</i>
-        <input class="inputdois" type="password" placeholder="Sua senha" />
+        <input class="inputdois" type="password" placeholder="Sua senha" onclick="clearPlaceholder(this)" onblur="restorePlaceholderKey(this)"/>
       </div>
       <div class="label_dois">
         <i class="material-symbols-outlined">lock</i>
@@ -39,13 +40,14 @@
           class="inputdois"
           type="password"
           placeholder="Confirme sua senha"
+          onclick="clearPlaceholder(this)" onblur="restorePlaceholderKeyconfirm(this)"
         />
       </div>
       <div class="register">
         <p class="p_register">
           Ao se registrar, você aceita nossos
           <a href="#" class="terms">termos de uso</a> e a nossa
-          <a href="#" class="terms">política de privacidade.</a>
+          <a href="#" class="terms">política de privacidade!</a>
         </p>
       </div>
       <div class="butaodiv">
