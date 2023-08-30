@@ -1,5 +1,5 @@
 body {
-    background-color: #FFFCF8;
+    background-color:  #000000;
     font-family: Arial, sans-serif;
     margin: 0;
 }
@@ -8,7 +8,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, auto);
     /* Adjust the number of columns based on your menu items */
-    background-color: #A8BF8C;
+    background-color: #000000 ;
     color: white;
 }
 
@@ -19,15 +19,15 @@ body {
     color: white;
 }
 
-.menu a:hover {
-    background-color: #83996f;
+.menu a:hover { 
+    background-color: #7159c1;
     transition: 0.5s;
 }
 
 h1 {
     text-align: center;
     margin-top: 40px;
-    color: #405230;
+    color: #7159c1 ;
     font-size: 50px;
 }
 
@@ -74,7 +74,7 @@ h1 {
 }
 
 .butao {
-    background-color: #405230;
+    background-color: #7159c1 ;
     color: white;
     border-radius: 10px;
     width: 345px;
@@ -100,12 +100,13 @@ h1 {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    color: #405230;
+    color: #D8D8F6;
 }
 
 .key a {
     text-decoration: none;
-    color: #405230;
+    color: #D8D8F6;
+    
 }
 
 .or {
