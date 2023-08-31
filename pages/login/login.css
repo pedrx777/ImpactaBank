@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 body {
-    background-color:  #000000;
+    background-color: #000000;
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
 }
@@ -10,7 +10,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, auto);
     /* Adjust the number of columns based on your menu items */
-    background-color: #000000 ;
+    background-color: #000000;
     color: white;
 }
 
@@ -21,7 +21,7 @@ body {
     color: white;
 }
 
-.menu a:hover { 
+.menu a:hover {
     background-color: #7159c1;
     transition: 0.5s;
 }
@@ -44,7 +44,7 @@ body {
     flex-direction: column;
 }
 
-.left-login > h1 {
+.left-login>h1 {
     color: #CCCCC1;
     font-size: 3vw;
 }
@@ -67,13 +67,13 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px 35px; 
+    padding: 30px 35px;
     background-color: #202024;
     border-radius: 8px;
     box-shadow: 0px 10px 40px #2f284156;
 }
 
-.card-login > h1 {
+.card-login>h1 {
     color: #CCCCC1;
     font-weight: 800;
     margin: 0;
@@ -89,7 +89,7 @@ body {
     margin: 10px 0px;
 }
 
-.textfield > input {
+.textfield>input {
     width: 100%;
     border: none;
     border-radius: 10px;
@@ -102,16 +102,16 @@ body {
     box-sizing: border-box;
 }
 
-.textfield > input:focus {
+.textfield>input:focus {
     border: 2px solid #7159c1;
 }
 
-.textfield > label {
+.textfield>label {
     color: #f0ffffde;
     margin-bottom: 10px;
 }
 
-.textfield > input::placeholder {
+.textfield>input::placeholder {
     color: #f0ffff94;
 }
 
@@ -122,12 +122,12 @@ body {
     font-weight: bold;
 }
 
-.forgotkey > a {
+.forgotkey>a {
     color: #6d46ca;
     text-decoration: none;
 }
 
-.forgotkey > a:hover {
+.forgotkey>a:hover {
     color: #7f59d8;
     transition: .2s;
 }
@@ -155,15 +155,16 @@ body {
 
 .p_register {
     color: #CCCCC1;
+    margin-bottom: 1pt;
 }
 
-.p_register > a {
+.p_register>a {
     color: #6d46ca;
     text-decoration: none;
     font-weight: bold;
 }
 
-.p_register > a:hover {
+.p_register>a:hover {
     color: #7f59d8;
     transition: .2s;
 }
