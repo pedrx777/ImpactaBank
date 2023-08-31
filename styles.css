@@ -10,19 +10,19 @@ body {
   display: grid;
   grid-template-columns: repeat(4, auto);
   background-color: #000000;
-  color: #ffffff;
-  border-bottom: 1px solid #7159c1;
+  color: #CCCCC1;
+  border-bottom: 2px solid #7159c1;
 }
 
 .menu a {
   padding: 15px 20px;
   text-align: center;
   text-decoration: none;
-  color: white;
+  color: #CCCCC1;
 }
 
 .menu a:hover {
-  background-color: #7159c1;
+  color: #ffffff;
   transition: 0.3s;
 }
 
@@ -35,11 +35,9 @@ body {
 .impacta span {
   margin-top: 20px;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 800;
   text-align: center;
-  background: linear-gradient(to right, #81e3bc, #63ffc0);
-  -webkit-background-clip: text;
-  color: transparent;
+ color: #ffffff;
 }
 
 .center {
@@ -54,9 +52,7 @@ body {
 }
 
 .degrade {
-  background: linear-gradient(to right, #9079da, #7159c1);
-  -webkit-background-clip: text;
-  color: transparent;
+  color: #ffffff;
 }
 
 .inicial {

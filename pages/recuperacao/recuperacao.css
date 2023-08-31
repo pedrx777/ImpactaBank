@@ -1,27 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
 body {
-    background-color: #FFFCF8;
-    font-family: Arial, sans-serif;
-    margin: 0;
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #000000;
 }
 
 .menu {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    /* Adjust the number of columns based on your menu items */
-    background-color: #A8BF8C;
-    color: white;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  background-color: #000000;
+  color: #CCCCC1;
+  border-bottom: 2px solid #7159c1;
 }
 
 .menu a {
-    padding: 15px 20px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #CCCCC1;
 }
 
 .menu a:hover {
-    background-color: #83996f;
-    transition: 0.5s;
+  color: #ffffff;
+  transition: 0.3s;
 }
 
 .main {
