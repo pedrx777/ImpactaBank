@@ -83,7 +83,8 @@ body {
 }
 
 .terms:hover {
-  color: #8d73e6;
+  color: #63ffc0;
+  transition: .5s;
 }
 
 ::placeholder {
@@ -182,6 +183,8 @@ body {
 }
 
 .butao2:hover {
-  background-color: #7159c1;
+  background-color: #63ffc0;
+  border: 2px solid #63ffc0;
+  color: #000000;
   transition-duration: 0.3s;
 }

@@ -1,35 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <script src="login.js"></script>
     <title>Login</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="menu">
-        <a href="../../index.html">Página Inicial</a>
-        <a href="../criar/criar.html">Criar conta</a>
-        <a href="#">Para você</a>
-        <a href="#">Para seu negócio</a>
+      <a href="../../index.html">Página Inicial</a>
+      <a href="../criar/criar.html">Criar conta</a>
+      <a href="#">Para você</a>
+      <a href="#">Para seu negócio</a>
     </nav>
-    <h1>C6BANK</h1>
-    <div class="mainzada">
-        <div class="main">
-            <span>Entre em sua conta!</span>
+    <div class="main-login">
+      <div class="left-login">
+        <h1>Entre em sua conta e<br />Aproveite suas vantagens</h1>
+        <i class="material-symbols-outlined">lock</i>
+        <img src="../../financecc.svg" class="left-login-img" alt="Finanças" />
+      </div>
+      <div class="right-login">
+        <div class="card-login">
+          <h1>LOGIN</h1>
+          <div class="textfield">
+            <label for="usuario">CPF</label>
+            <input
+              type="text"
+              name="cpf"
+              placeholder="Insira seu CPF"
+              onclick="clearPlaceholder(this)"
+              onblur="restoreField(this, 'Insira seu CPF')"
+            />
+          </div>
+          <div class="textfield">
+            <label for="senha">Senha</label>
+            <input
+              type="password"
+              name="senha"
+              placeholder="Insira sua senha"
+              onclick="clearPlaceholder(this)"
+              onblur="restoreField(this, 'Insira sua senha')"
+            />
+            <p class="forgotkey"><a href="">Esqueci minha senha</a></p>
+          </div>
+          <button class="btn-login">Login</button>
+          <p class="p_register">
+            Não tem conta?
+            <a href="../criar/criar.html" class="terms">Registre-se</a>
+          </p>
         </div>
-        <div class="label">
-            <input class="inputum" type="text" placeholder="CPF">
-        </div>
-        <div class="label_dois">
-            <input class="inputdois" type="text" placeholder="Senha">
-        </div>
-        <div class="butaodiv">
-            <button class="butao"><a href="../../index.html">Entrar</a></button>
-        </div>
-        <div>
-            <span class="key"><a href="../forgot/forgot.html">Esqueceu a senha?</a></span>
-        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
