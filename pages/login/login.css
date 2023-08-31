@@ -45,7 +45,7 @@ body {
 }
 
 .left-login > h1 {
-    color: #7159c1;
+    color: #CCCCC1;
     font-size: 3vw;
 }
 
@@ -74,7 +74,7 @@ body {
 }
 
 .card-login > h1 {
-    color: #7159c1;
+    color: #CCCCC1;
     font-weight: 800;
     margin: 0;
     letter-spacing: 2px;
@@ -116,7 +116,6 @@ body {
 }
 
 .forgotkey {
-    color: #8257E6;
     margin-bottom: 0px;
     font-size: 14px;
     margin-left: 1%;
@@ -124,6 +123,7 @@ body {
 }
 
 .forgotkey > a {
+    color: #6d46ca;
     text-decoration: none;
 }
 
@@ -158,7 +158,7 @@ body {
 }
 
 .p_register > a {
-    color: #6633dc;
+    color: #6d46ca;
     text-decoration: none;
     font-weight: bold;
 }
