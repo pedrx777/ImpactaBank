@@ -1,43 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="forgot.css" />
-    <link rel="stylesheet" href="../../assets/css/reset.css" />
-    <link rel="stylesheet" href="../../assets/css/menu.css" />
-    <link rel="stylesheet" href="../../assets/css/scroll.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="../../favicon1_io/site.webmanifest">
-    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon1_io/site.webmanifest">
-    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon1_io/site.webmanifest">
-    <link rel="manifest" href="../../favicon1_io/site.webmanifest">
-    <script src="forgot.js"></script>
-    <title>Recupere sua conta</title>
-  </head>
 
-  <body>
-    <nav class="menu">
-      <a href="../../index.html" class="link">Página Inicial</a>
-      <a href="#" class="link">Para você</a>
-      <a href="#" class="link">Para seu negócio</a>
-      <a href="../criar/criar.html" class="link">Criar conta</a>
-      <a href="../login/login.html"><button class="btnmenu">ENTRAR</button></a>
-    </nav>
-    <div class="container">
-      <div class="card-forgot">
-        <h1 class="card-forgot-title">Recuperar senha</h1>
-        <div class="textfield">
-          <input
-            type="text"
-            placeholder="Digite seu e-mail"
-            class="card-forgot-input"
-            onclick="clearPlaceholder(this)"
-            onblur="restoreField(this, 'Digite seu e-mail')"
-          />
-        </div>
-        <button class="btn-forgot" id="continue-btn">Recuperar</button>
-        <p class="card-forgot-p"><a href="../login/login.html">Voltar</a></p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="forgot.css" />
+  <link rel="stylesheet" href="../../assets/css/reset.css" />
+  <link rel="stylesheet" href="../../assets/css/menu.css" />
+  <link rel="stylesheet" href="../../assets/css/scroll.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="../../favicon1_io/site.webmanifest">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon1_io/site.webmanifest">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon1_io/site.webmanifest">
+  <link rel="manifest" href="../../favicon1_io/site.webmanifest">
+  <title>Recupere sua conta</title>
+</head>
+
+<body>
+  <nav class="menu">
+    <a href="../../index.html" class="link">Página Inicial</a>
+    <a href="#" class="link">Para você</a>
+    <a href="#" class="link">Para seu negócio</a>
+    <a href="../criar/criar.html" class="link">Criar conta</a>
+    <a href="../login/login.html"><button class="btnmenu">ENTRAR</button></a>
+  </nav>
+  <div class="container">
+    <div class="card-forgot">
+      <h1 class="card-forgot-title">Recuperar senha</h1>
+      <div class="textfield">
+        <input type="text" placeholder="Digite seu e-mail" class="card-forgot-input" onclick="clearPlaceholder(this)"
+          onblur="restoreField(this, 'Digite seu e-mail')" />
       </div>
+      <button class="btn-forgot" id="continue-btn">Recuperar</button>
+      <p class="card-forgot-p"><a href="../login/login.html">Voltar</a></p>
     </div>
-  </body>
+  </div>
+</body>
+<script src="../../assets/js/input.js"></script>
+<script src="forgot.js"></script>
+
 </html>
