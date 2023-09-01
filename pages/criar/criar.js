@@ -1,9 +1,16 @@
 function clearPlaceholder(inputElement) {
-    inputElement.placeholder = '';
-  }
+  inputElement.placeholder = '';
+}
 
-  function restorePlaceholderCpf(inputElement) {
-    if (inputElement.value === '') {
-      inputElement.placeholder = 'Seu CPF';
-    }
+function restoreField(field, placeholder) {
+  if (field.value === '') {
+    field.placeholder = placeholder
   }
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("continue-btn").addEventListener("click", function () {
+    window.location.href = "../cadastro/cadastro.html";
+  });
+});
+

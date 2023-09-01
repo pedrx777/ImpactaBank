@@ -1,50 +1,50 @@
 .create {
-  padding: 15px 20px;
-  text-align: center;
-  text-decoration: none;
-  color: #ffffff;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .create:hover {
-  background-color: #7159c1;
+    background-color: #7159c1;
 }
 
 .btnmenu {
-  background-color: #000000;
-  font-family: 'Noto Sans', sans-serif;
-  border: 1pt solid #8257E5;
-  padding: 10px 15px;
-  color: #ffffff;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  border-radius: 7px;
-  width: 75%;
-  height: 70%;
-  margin-top: 5%;
-  margin-left: 5%;
-  font-weight: bold;
-  font-size: 12px;
-  letter-spacing: 1px;
+    background-color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    border: 1pt solid #8257E5;
+    padding: 10px 15px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 7px;
+    width: 75%;
+    height: 70%;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
 }
 
 .btnmenu:hover {
-  background-color: #9466FF;
-  transition: .3s;
+    background-color: #9466FF;
+    transition: .3s;
 }
 
 .link {
-  padding: 15px 20px;
-  text-align: center;
-  text-decoration: none;
-  color: #CCCCC1;
-  border-bottom: 2px solid #000000;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #CCCCC1;
+    border-bottom: 2px solid #000000;
 }
 
 .link:hover {
-  color: #ffffff;
-  transition: 0.3s;
-  border-bottom: 2px solid #7159c1;
+    color: #ffffff;
+    transition: 0.3s;
+    border-bottom: 2px solid #7159c1;
 }
 
 .main-login {

@@ -1,43 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="criar.css" />
+    <link rel="stylesheet" href="../../assets/css/reset.css" />
+    <link rel="stylesheet" href="../../assets/css/menu.css" />
+    <link rel="stylesheet" href="../../assets/css/scroll.css" />
+    <script src="criar.js"></script>
+    <title>Criar Conta</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="criar.css" />
-  <link rel="stylesheet" href="../../assets/css/reset.css">
-  <link rel="stylesheet" href="../../assets/css/menu.css">
-  <script src="criar.js"></script>
-  <title>Criar Conta</title>
-</head>
-
-<body>
-  <nav class="menu">
-    <a href="../../index.html" class="link">Página Inicial</a>
-    <a href="#" class="link">Para você</a>
-    <a href="#" class="link">Para seu negócio</a>
-    <a href="../criar/criar.html" class="link">Criar conta</a>
-    <a href="../login/login.html"><button class="btnmenu">ENTRAR</button></a>
-  </nav>
-  <div class="mainzada">
-    <div class="main">
-      <span class="cadastro">Cadastre-se</span>
+  <body>
+    <nav class="menu">
+      <a href="../../index.html" class="link">Página Inicial</a>
+      <a href="#" class="link">Para você</a>
+      <a href="#" class="link">Para seu negócio</a>
+      <a href="../criar/criar.html" class="link">Criar conta</a>
+      <a href="../login/login.html"><button class="btnmenu">ENTRAR</button></a>
+    </nav>
+    <div class="container">
+      <div class="title">
+        <h1>Venha fazer parte do time</h1>
+        <p>
+          Não perca tempo e cadastre-se para impulsionar sua busca por seus
+          objetivos
+        </p>
+      </div>
+      <div class="card-signin">
+        <h1 class="card-signin-title">CADASTRO</h1>
+        <p class="card-signin-subtitle">
+          Insira seu CPF para continuar o cadastro
+        </p>
+        <div class="textfield">
+          <input
+            type="text"
+            name="cpf"
+            placeholder="Seu CPF"
+            onclick="clearPlaceholder(this)"
+            onblur="restoreField(this, 'Seu CPF')"
+          />
+        </div>
+        <button class="btn-signin" id="continue-btn">Continuar</button>
+        <p class="register">
+          Já é cadastrado?
+          <a href="../login/login.html" class="terms">Volte ao login</a>
+        </p>
+      </div>
     </div>
-    <div class="label">
-      <input class="inputum" type="text" placeholder="Insira seu CPF" onclick="clearPlaceholder(this)"
-        onblur="restorePlaceholderCpf(this)" />
-    </div>
-    <div class="butaodiv">
-      <a href="../cadastro/cadastro.html" class="butao">Continuar</a>
-    </div>
-    <div>
-      <span class="or">ou</span>
-    </div>
-    <div class="paibutao">
-      <a href="../login/login.html" class="butao2">Já sou cliente</a>
-    </div>
-  </div>
-  </div>
-</body>
-
+  </body>
 </html>

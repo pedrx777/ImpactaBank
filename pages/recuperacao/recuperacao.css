@@ -1,88 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
-
-body {
-  margin: 0;
-  font-family: 'Noto Sans', sans-serif;
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
   background-color: #000000;
 }
 
-.menu {
-  display: grid;
-  grid-template-columns: repeat(5, auto);
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
   background-color: #000000;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.content-title {
   color: #CCCCC1;
+  width: 50%;
 }
 
-.create {
-  padding: 15px 20px;
-  text-align: center;
-  text-decoration: none;
+.content-p {
+  color: #CCCCC1;
+  width: 50%;
+  margin-bottom: 0;
+}
+
+.content-btn {
+  width: 25%;
+  padding: 16px 0px;
+  margin-top: 3%;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: .1rem;
   color: #ffffff;
-}
-
-.create:hover {
-  background-color: #7159c1;
-}
-
-.btnmenu {
-  background-color: #000000;
-  font-family: 'Noto Sans', sans-serif;
-  border: 1pt solid #8257E5;
-  padding: 10px 15px;
-  color: #ffffff;
-  text-align: center;
-  text-decoration: none;
+  background-color: #7951c1;
   cursor: pointer;
-  border-radius: 7px;
-  width: 75%;
-  height: 70%;
-  margin-top: 5%;
-  margin-left: 5%;
-  font-weight: bold;
-  font-size: 12px;
-  letter-spacing: 1px;
 }
 
-.btnmenu:hover {
-  background-color: #9466FF;
+.content-btn:hover {
+  background-color: #8d73e6;
   transition: .3s;
-}
-
-.link {
-  padding: 15px 20px;
-  text-align: center;
-  text-decoration: none;
-  color: #CCCCC1;
-  border-bottom: 2px solid #000000;
-}
-
-.link:hover {
-  color: #ffffff;
-  transition: 0.3s;
-  border-bottom: 2px solid #7159c1;
-}
-
-.main {
-    margin-top: 100px;
-}
-
-.confirmation {
-    margin-top: 1px;
-}
-
-div {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-h1 {
-    font-size: 35px;
-    color: #405230;
-}
-
-p {
-    color: #687a51;
-    font-size: 20px; 
 }

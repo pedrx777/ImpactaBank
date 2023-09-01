@@ -1,109 +1,89 @@
-h1 {
-    text-align: center;
-    margin-top: 40px;
-    color: #405230;
-    font-size: 50px;
-}
-
-.main {
+.container {
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: center;
-    font-size: 20px;
+    align-items: center;
+    background-color: #000000;
 }
 
-.label {
+.card-forgot {
+    width: 50vw;
+    height: 70vh;
     display: flex;
+    justify-content: start;
     align-items: center;
-    justify-content: center;
-    margin-top: 20px;
+    flex-direction: column;
+    background-color: #000000;
 }
 
-.label_dois {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15px;
+.card-forgot-title {
+    color: #CCCCC1;
+    font-weight: 800;
+    margin: 0;
+    font-size: 1.5rem;
 }
 
-.inputum {
-    width: 330px;
-    height: 40px;
+.card-forgot-input {
+    width: 50%;
+    border: 2px solid #242424;
     border-radius: 5px;
-    border-style: none;
+    padding: 15px;
+    background-color: #121214;
+    color: #f0ffffde;
+    font-size: 12pt;
+    outline: none;
+    box-sizing: border-box;
 }
 
-.inputdois {
-    width: 330px;
-    height: 40px;
-    border-radius: 5px;
-    border-style: none;
+.card-forgot-input:focus {
+    border: 2px solid #7159c1;
 }
 
-.butaodiv {
+.card-forgot-input::placeholder {
+    color: #d7e3e394;
+    font-size: 14px;
+}
+
+.textfield {
+    width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin: 4% 0 0 0;
 }
 
-.butao {
-    background-color: #405230;
-    color: white;
-    border-radius: 10px;
-    width: 345px;
-    height: 46px;
-    font-size: 20px;
-    font-weight: bold;
-    border-style: none;
-    opacity: 0.8;
+.btn-forgot {
+    width: 50%;
+    padding: 15px 0px;
+    margin: 4% 0 0 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #ffffff;
+    background-color: #7159c1;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #7159c156;
 }
 
-.butao a {
+.btn-forgot:hover {
+    background-color: #8d73e6;
+    transition: .3s;
+}
+
+.card-forgot-p {
+    font-size: .9rem;
+}
+
+.card-forgot a {
     text-decoration: none;
-    color: white;
+    color: #bac6c6de;
 }
 
-.butao:hover {
-    opacity: 1;
-    transition-duration: 0.3s; 
-}
-
-.key {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    color: #405230;
-}
-
-.key a {
-    text-decoration: none;
-    color: #405230;
-}
-
-.or {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 12px;
-    color: grey;
-}
-
-.paibutao {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 16px;
-}
-
-.butao2 {
-    background-color: rgb(2, 190, 2); 
-    color: white;
-    border-radius: 5px;
-    width: 160px;
-    height: 45px;
-    font-size: 16px;
-    font-weight: bold;
-    border-style: none;
+.card-forgot a:hover {
+    color: #e3e9e9de;
+    transition: .3s;
 }

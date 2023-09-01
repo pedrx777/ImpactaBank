@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="login.css" />
   <link rel="stylesheet" href="../../assets/css/reset.css">
   <link rel="stylesheet" href="../../assets/css/menu.css">
+  <link rel="stylesheet" href="../../assets/css/scroll.css">
   <script src="login.js"></script>
   <title>Login</title>
 </head>
@@ -37,12 +38,12 @@
           <label for="senha">Senha</label>
           <input type="password" name="senha" placeholder="Insira sua senha" onclick="clearPlaceholder(this)"
             onblur="restoreField(this, 'Insira sua senha')" />
-          <p class="forgotkey"><a href="">Esqueci minha senha</a></p>
+          <p class="forgotkey"><a href="../forgot/forgot.html">Esqueci minha senha</a></p>
         </div>
-        <button class="btn-login">Login</button>
+        <button class="btn-login" id="continue-btn">Login</button>
         <p class="p_register">
           Não tem conta?
-          <a href="../cadastro/cadastro.html" class="terms">Registre-se</a>
+          <a href="../criar/criar.html" class="terms">Registre-se</a>
         </p>
       </div>
     </div>

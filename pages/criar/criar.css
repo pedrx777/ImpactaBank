@@ -1,135 +1,127 @@
-.mainzada {
-  margin-top: 40px;
+.container {
+  background-color: #000000;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.main {
+.title {
+  width: 40vw;
+  height: 60vh;
   display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  color: #CCCCC1;
+}
+
+.title h1 {
+  font-size: 2rem;
+}
+
+.title p {
+  width: 80%;
+  height: 100%;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-top: 10%;
+}
+
+.card-signin {
+  width: 40vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px;
+  border-radius: 8px;
+  background-color: #242424;
+}
+
+.card-signin-title {
+  color: #CCCCC1;
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: 1pt;
+}
+
+.card-signin-subtitle {
+  color: #a1a1a1;
+  margin: 0;
+  font-weight: 300;
+  margin: 4% 2% 2% 2%;
+  width: 50%;
+  text-align: center;
+}
+
+.textfield {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 20px;
-  color: #ffffff;
+  margin: 4% 0 0 0;
 }
 
-.cadastro {
-  font-size: 30px;
-}
-
-::placeholder {
-  color: #000000;
-  padding-left: 1px;
-}
-
-.label {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.label_dois {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 15px;
-}
-
-::placeholder {
-  color: #000000;
-  font-size: 12px;
-}
-
-.inputum {
-  width: 268px;
-  height: 40px;
+.textfield>input {
+  width: 50%;
+  border: 2px solid #242424;
   border-radius: 10px;
-  border: 2px solid #000000;
-  padding-left: 12px;
-}
-
-.inputum:focus {
+  padding: 15px;
+  background-color: #121214;
+  color: #f0ffffde;
+  font-size: 12pt;
+  box-shadow: 0px 10px 40px -12px #7159c156;
   outline: none;
+  box-sizing: border-box;
+}
+
+.textfield>input:focus {
   border: 2px solid #7159c1;
 }
 
-.butaodiv {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
+.textfield>input::placeholder {
+  color: #d7e3e394;
+  font-size: 14px;
 }
 
-.butao {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #000000;
-  color: white;
-  border-radius: 10px;
-  width: 280px;
-  height: 45px;
-  font-size: 20px;
-  font-weight: bold;
-  border: 2px solid #7159c1;
-  text-decoration: none;
+
+.btn-signin {
+  width: 50%;
+  padding: 15px 0px;
+  margin: 6% 0 0 0;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #ffffff;
+  background-color: #121214;
   cursor: pointer;
+  box-shadow: 0px 10px 40px -12px #7159c156;
 }
 
-.butao:hover {
+.btn-signin:hover {
   background-color: #7159c1;
-  transition-duration: 0.2s;
+  transition: .3s;
 }
 
-.butao2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #000000;
-  color: white;
-  border-radius: 10px;
-  width: 280px;
-  height: 45px;
-  font-size: 16px;
+.register {
+  color: #CCCCC1;
+  margin: 5% 0 1% 0;
+}
+
+.register a {
+  color: #6d46ca;
+  text-decoration: none;
   font-weight: bold;
-  border: 2px solid #7159c1;
-  text-decoration: none;
-  cursor: pointer;
 }
 
-.butao2:hover {
-  background-color: #7159c1;
-  border: 2px solid #7159c1;
-  transition-duration: 0.3s;
-}
-
-.key {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.key a {
-  color: #272727;
-  text-decoration: none;
-  opacity: 0.9;
-  font-style: bold;
-}
-
-.key a:hover {
-  opacity: 1;
-}
-
-.or {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 12px;
-  color: grey;
-}
-
-.paibutao {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 16px;
+.register a:hover {
+  color: #7f59d8;
+  transition: .2s;
 }
