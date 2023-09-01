@@ -8,8 +8,14 @@ function restoreField(field, placeholder) {
   }
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  document.getElementById("continue-btn").addEventListener("click", function () {
-    window.location.href = "../contacriada/contacriada.html";
-  });
-});
+function startLoadingAnimation() {
+  var loadingOverlay = document.getElementById("loadingOverlay");
+  loadingOverlay.style.display = "block";
+
+  setTimeout(function () {
+    // Após a simulação de carregamento, redireciona para outra página
+    window.location.href = "../../index.html";
+  }, 2000); // Simulando um atraso de 3 segundos antes do redirecionamento
+}
+
+

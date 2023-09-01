@@ -189,3 +189,35 @@
     color: #7f59d8;
     transition: .2s;
 }
+
+.login-form {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.loading-overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: 9999;
+}
+
+.loading-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 4px solid #ffffff;
+    border-top: 4px solid #9466FF;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
