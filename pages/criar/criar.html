@@ -43,7 +43,7 @@
           <input type="text" name="cpf" placeholder="Seu CPF" onclick="clearPlaceholder(this)"
             onblur="restoreField(this, 'Seu CPF')" />
         </div>
-        <button class="btn-signin" id="continue-btn">Continuar</button>
+        <button class="btn-signin" id="redirect-btn" data-destination="../cadastro/cadastro.html">Continuar</button>
         <p class="register">
           Já é cadastrado?
           <a href="../login/login.html" class="terms">Faça login</a>
@@ -53,6 +53,6 @@
   </div>
 </body>
 <script src="../../assets/js/input.js"></script>
-<script src="criar.js"></script>
+<script src="../../assets/js/redirectTo.js"></script>
 
 </html>
