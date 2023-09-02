@@ -113,17 +113,16 @@
   width: 200px;
   height: 45px;
   border-radius: 30px;
-  color: #ffffff;
-  border-color: #ffffff;
-  background-color: #000000;
+  color: #ccccc1;
+  border-color: #7159c1;
+  background-color: #7159c1;
   cursor: pointer;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .btn3:hover {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #8d73e6;
   transition: 0.3s;
 }
 
@@ -132,16 +131,15 @@
   width: 200px;
   height: 45px;
   border-radius: 30px;
-  color: #ffffff;
-  border-color: #ffffff;
-  background-color: #000000;
+  color: #ccccc1;
+  border-color: #7159c1;
+  background-color: #7159c1;
   cursor: pointer;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .btn4:hover {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #8d73e6;
   transition: 0.3s;
 }
