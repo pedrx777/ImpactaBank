@@ -1,78 +1,125 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="cadastro.css" />
+    <link rel="stylesheet" href="../../assets/css/reset.css" />
+    <link rel="stylesheet" href="../../assets/css/menu.css" />
+    <link rel="stylesheet" href="../../assets/css/scroll.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../../favicon1_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../../favicon1_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../../favicon1_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../../favicon1_io/site.webmanifest" />
+    <title>Cadastro</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <link rel="stylesheet" href="cadastro.css" />
-  <link rel="stylesheet" href="../../assets/css/reset.css">
-  <link rel="stylesheet" href="../../assets/css/menu.css">
-  <link rel="stylesheet" href="../../assets/css/scroll.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="../../favicon1_io/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon1_io/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon1_io/favicon-16x16.png">
-  <link rel="manifest" href="../../favicon1_io/site.webmanifest">
-  <title>Cadastro</title>
-</head>
-
-<body>
-  <nav class="menu">
-    <a href="../../index.html" class="link">Página Inicial</a>
-    <a href="../paravoce/paravoce.html" class="link">Para você</a>
-    <a href="../paraempresas/paraempresas.html" class="link">Para seu negócio</a>
-    <a href="../criar/criar.html" class="link">Criar conta</a>
-    <a href="../login/login.html"><button class="btnmenu">ENTRAR</button></a>
-  </nav>
-  <div class="main-login">
-    <div class="left-login">
-      <div class="cadaster">
-        <h1> Já somos mais de 700 mil<br />
-          Junte-se a nós</h1>
-      </div>
-      <div class="cadaster_p">
-        <p>Criando sua conta agora, você ja pode<br />
-          agora mesmo aproveitar de diversas <br>
-          vantagens e acelerar seus objetivos
-        </p>
-      </div>
-    </div>
-    <div class="right-login">
-      <div class="card-login">
-        <h1>CADASTRO</h1>
-        <div class="textfield">
-          <input type="text" name="email" placeholder="Seu E-mail" onclick="clearPlaceholder(this)"
-            onblur="restoreField(this, 'Seu E-mail')" />
+  <body>
+    <nav class="menu">
+      <a href="../../index.html" class="link">Página Inicial</a>
+      <a href="../paravoce/paravoce.html" class="link">Para você</a>
+      <a href="../paraempresas/paraempresas.html" class="link"
+        >Para seu negócio</a
+      >
+      <a href="../criar/criar.html" class="link">Criar conta</a>
+      <a href="../login/login.html"><button class="btnmenu">ENTRAR</button></a>
+    </nav>
+    <div class="main-login">
+      <div class="left-login">
+        <div class="cadaster">
+          <h1>
+            Já somos mais de 700 mil<br />
+            Junte-se a nós
+          </h1>
         </div>
-        <div class="textfield">
-          <input type="text" name="name" placeholder="Seu nome" onclick="clearPlaceholder(this)"
-            onblur="restoreField(this, 'Seu nome')" />
-        </div>
-        <div class="textfield">
-          <input type="password" name="senha" placeholder="Sua senha" onclick="clearPlaceholder(this)"
-            onblur="restoreField(this, 'Sua senha')" />
-        </div>
-        <div class="textfield">
-          <input type="password" name="senhaconfirm" placeholder="Confirme sua senha" onclick="clearPlaceholder(this)"
-            onblur="restoreField(this, 'Confirme sua senha')" />
-          <p class="p_terms">
-            Ao registrar, você aceita nossos
-            <a href="../criar/criar.html" class="terms">termos de uso</a>
-            e a <a href="../criar/criar.html" class="terms">política de privacidade.</a>
+        <div class="cadaster_p">
+          <p>
+            Criando sua conta agora, você ja pode<br />
+            agora mesmo aproveitar de diversas <br />
+            vantagens e acelerar seus objetivos
           </p>
         </div>
-        <button class="btn-login" id="redirect-btn"
-          data-destination="../contacriada/contacriada.html">Cadastrar</button>
-        <p class="p_register">
-          Já é cadastrado?
-          <a href="../login/login.html" class="terms">Volte ao login</a>
-        </p>
+      </div>
+      <div class="right-login">
+        <div class="card-login">
+          <h1>CADASTRO</h1>
+          <div class="textfield">
+            <input
+              type="text"
+              name="email"
+              placeholder="Seu E-mail"
+              onclick="clearPlaceholder(this)"
+              onblur="restoreField(this, 'Seu E-mail')"
+            />
+          </div>
+          <div class="textfield">
+            <input
+              type="text"
+              name="name"
+              placeholder="Seu nome"
+              onclick="clearPlaceholder(this)"
+              onblur="restoreField(this, 'Seu nome')"
+            />
+          </div>
+          <div class="textfield">
+            <input
+              type="password"
+              name="senha"
+              placeholder="Sua senha"
+              onclick="clearPlaceholder(this)"
+              onblur="restoreField(this, 'Sua senha')"
+            />
+          </div>
+          <div class="textfield">
+            <input
+              type="password"
+              name="senhaconfirm"
+              placeholder="Confirme sua senha"
+              onclick="clearPlaceholder(this)"
+              onblur="restoreField(this, 'Confirme sua senha')"
+            />
+            <p class="p_terms">
+              Ao registrar, você aceita nossos
+              <a href="../criar/criar.html" class="terms">termos de uso</a>
+              e a
+              <a href="../criar/criar.html" class="terms"
+                >política de privacidade.</a
+              >
+            </p>
+          </div>
+          <button
+            class="btn-login"
+            id="redirect-btn"
+            data-destination="../contacriada/contacriada.html"
+          >
+            Cadastrar
+          </button>
+          <p class="p_register">
+            Já é cadastrado?
+            <a href="../login/login.html" class="terms">Volte ao login</a>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-</body>
-<script src="../../assets/js/input.js"></script>
-<script src="../../assets/js/redirectTo.js"></script>
-
+    <script src="../../assets/js/input.js"></script>
+    <script src="../../assets/js/redirectTo.js"></script>
+  </body>
 </html>
