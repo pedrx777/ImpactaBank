@@ -1,94 +1,46 @@
 .main {
-    height: 80vh;
     width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
+    height: 65vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); 
+    place-items: center;
 }
 
-h1 {
-    color: #ffffff;
-    text-align: center;
-}
-
-h2 {
-    color: #ffffff;
-    text-align: start;
-    font-weight: 400;
-}
-
-p {
-    color: #ccccc1;
-    text-align: start;
-    font-weight: 300;
-    margin-top: 0;
-}
-
-.product {
+.grid-item {
     background-color: #202024;
-    width: 80vw;
-    height: 20vh;
-    margin: auto;
-    border-radius: 5px;
+    width: 40vw;
+    height: 25vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: .5rem;
+}
+
+.grid-item:hover {
+    background-color: #333333;
     cursor: pointer;
 }
 
-.product:hover {
-    background-color: #333333;
-    transition: .2s;
+.item {
+    width: 80%;
 }
 
-.leftproduct {
-    width: 30vw;
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-left: 5vw;
+.title {
+    color: white;
+    text-align: center;
 }
 
-.leftproduct > img {
-    width: 30vw;
-    height: 20vh;
+.item-title {
+    color: white;
 }
 
-.rightproduct {
-    width: 30vw;
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.item-p {
+    color: #cccccc;
 }
 
-.rightproduct > img {
-    width: 30vw;
-    height: 20vh;
-}
-
-.leftproductdiff{
-    width: 30vw;
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.leftproductdiff > img {
-    width: 30vw;
-    height: 20vh;
-}
-
-.rightproductdiff{
-    width: 30vw;
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-right: 5vw;
+span {
+    color: #7159c1;
+    font-size: .9rem;
 }
