@@ -122,7 +122,7 @@
   transition: .2s;
 }
 
-.btn-login {
+.btna {
   width: 100%;
   padding: 16px 0px;
   margin: 25px;
@@ -138,7 +138,7 @@
   box-shadow: 0px 10px 40px -12px #7159c156;
 }
 
-.btn-login:hover {
+.btna:hover {
   background-color: #7159c1;
   transition: .3s;
 }

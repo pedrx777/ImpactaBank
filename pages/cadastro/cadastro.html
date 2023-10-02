@@ -30,6 +30,23 @@
     />
     <link rel="manifest" href="../../favicon1_io/site.webmanifest" />
     <title>Cadastro</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/6.0.0/bootbox.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="cadastro.js"></script>
   </head>
 
   <body>
@@ -65,6 +82,7 @@
             <input
               type="text"
               name="email"
+              id="email"
               placeholder="Seu E-mail"
               onclick="clearPlaceholder(this)"
               onblur="restoreField(this, 'Seu E-mail')"
@@ -74,6 +92,7 @@
             <input
               type="text"
               name="name"
+              id="name"
               placeholder="Seu nome"
               onclick="clearPlaceholder(this)"
               onblur="restoreField(this, 'Seu nome')"
@@ -83,6 +102,7 @@
             <input
               type="password"
               name="senha"
+              id="key"
               placeholder="Sua senha"
               onclick="clearPlaceholder(this)"
               onblur="restoreField(this, 'Sua senha')"
@@ -92,6 +112,7 @@
             <input
               type="password"
               name="senhaconfirm"
+              id="keyconfirm"
               placeholder="Confirme sua senha"
               onclick="clearPlaceholder(this)"
               onblur="restoreField(this, 'Confirme sua senha')"
@@ -106,8 +127,8 @@
             </p>
           </div>
           <button
-            class="btn-login"
-            id="redirect-btn"
+            class="btna"
+            id="btn"
             data-destination="../contacriada/contacriada.html"
           >
             Cadastrar

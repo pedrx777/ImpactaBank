@@ -26,6 +26,23 @@
     />
     <link rel="manifest" href="../../favicon1_io/site.webmanifest" />
     <title>Criar Conta</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/6.0.0/bootbox.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="criar.js"></script>
   </head>
 
   <body>
@@ -59,13 +76,14 @@
               type="text"
               name="cpf"
               placeholder="Seu CPF"
+              id="cpf"
               onclick="clearPlaceholder(this)"
               onblur="restoreField(this, 'Seu CPF')"
             />
           </div>
           <button
-            class="btn-signin"
-            id="redirect-btn"
+            class="btna"
+            id="btn"
             data-destination="../cadastro/cadastro.html"
           >
             Continuar

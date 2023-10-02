@@ -1,11 +1,15 @@
-function startLoadingAnimation() {
-  var loadingOverlay = document.getElementById("loadingOverlay");
-  loadingOverlay.style.display = "block";
-
-  setTimeout(function () {
-    // Após a simulação de carregamento, redireciona para outra página
-    window.location.href = "../../index.html";
-  }, 2000); // Simulando um atraso de 3 segundos antes do redirecionamento
-}
-
+$(document).ready(function () {
+  $("#btn").click(function () {
+    console.log("Botão clicado");
+    let cpf = $("#cpf").val();
+    let key = $("#key").val();
+    if (cpf == "" || key == "") {
+      bootbox.alert({
+        message:
+          "Revise os campos preenchidos. Ambos os campos são obrigatórios!",
+        backdrop: true,
+      });
+    }
+  });
+});
 

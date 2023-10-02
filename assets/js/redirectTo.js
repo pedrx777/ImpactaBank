@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Seleciona todos os elementos com o id "redirect-btn"
-    const redirectButtons = document.querySelectorAll("#redirect-btn");
+    const redirectButtons = document.querySelectorAll(".btna");
   
     // Função para redirecionar com base no botão clicado
     function redirectToDestination(event) {
