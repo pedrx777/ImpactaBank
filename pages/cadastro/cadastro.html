@@ -47,6 +47,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="cadastro.js"></script>
+    <script src="cep.js"></script>
   </head>
 
   <body>
@@ -118,14 +119,16 @@
               onblur="restoreField(this, 'Confirme sua senha')"
             />
             <div class="textfield">
-              <input type="number" name="cep" id="cep" placeholder="CEP">
+              <input type="number" id="cep" placeholder="CEP">
             </div>
             <div class="textfield"> 
-              <input type="text" name="logradouro" id="logradouro" placeholder="Logradouro">
+              <input type="text" id="logradouro" placeholder="Logradouro">
             </div>
             <div class="textfield"> 
-              <input type="text" name="bairro" id="bairro" placeholder="Bairro">
+              <input type="text" id="bairro" placeholder="Bairro">
             </div>
+
+            <button onclick="consultaEndereco()" id="btnCEP"> Consultar </button>
             <p class="p_terms">
               Ao registrar, você aceita nossos
               <a href="../criar/criar.html" class="terms">termos de uso</a>
